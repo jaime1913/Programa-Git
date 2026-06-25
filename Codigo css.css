@@ -1,0 +1,101 @@
+/* RESET GENERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* CUERPO */
+body{
+    background-color: #f0f2f5;
+}
+
+/* ENCABEZADO */
+header{
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+header p{
+    font-size: 18px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+/* TARJETAS */
+.tarjeta{
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* TÍTULOS */
+.tarjeta h2{
+    color: #1565c0;
+    margin-bottom: 15px;
+}
+
+/* PÁRRAFOS */
+.tarjeta p{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* IMAGEN */
+.imagen{
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+/* LISTAS */
+ul{
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+li{
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* BOTÓN */
+.boton{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 25px;
+    background-color: #1565c0;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+/* EFECTO DEL BOTÓN */
+.boton:hover{
+    background-color: #0d47a1;
+}
+
+/* PIE DE PÁGINA */
+footer{
+    background-color: #1565c0;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}

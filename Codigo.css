@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* CONTENEDOR */
+.contenedor{
+    width: 360px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.2);
+}
+
+/* HEADER */
+.header{
+    background-color: #2e7d32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.header img{
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+.header h1{
+    font-size: 24px;
+}
+
+.header p{
+    font-size: 16px;
+}
+
+/* CONTENIDO */
+.contenido{
+    padding: 20px;
+}
+
+/* BUSCADOR */
+.buscador{
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 16px;
+}
+
+/* BOTONES */
+.boton{
+    width: 100%;
+    padding: 16px;
+    border: none;
+    border-radius: 35px;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+/* COLORES */
+.medicamentos{
+    background-color: #4CAF50;
+}
+
+.ventas{
+    background-color: #2196F3;
+}
+
+.inventario{
+    background-color: #FF9800;
+}
+
+.clientes{
+    background-color: #9C27B0;
+}
